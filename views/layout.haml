@@ -1,4 +1,4 @@
-!!! Strict
+!!! 5
 %html
   %head
     %meta{ :name => "description", :content => "Montreal (Canada) Javascript User Group" }
@@ -20,26 +20,26 @@
       })();
   %body
     #content
-      #hd
+      %header
         %h1 JS-MONTREAL.ORG
         %h2 Montr&eacute;al JavaScript User Group
         %a.twit{ :href => "http://www.twitter.com/jsmontreal" }
           %img{ :src => "http://twitter-badges.s3.amazonaws.com/follow_bird-c.png", :alt => "Follow jsmontreal on Twitter" }
-      %ul.h-menu
-        = menu(@section)
+      %nav
+        %ul.h-menu
+          = menu(@section)
       #bd.dark.rounded-top
         = yield
-      #ft.dark.rounded-bottom.padded
-        %p
-          %b Contact:&nbsp;
-          - @links["contact"].each do |l|
-            %a{ :href => l["href"]}<
-              =l["label"]
-            &nbsp;
-          %b Special thanks to:
-          %a{ :href => "http://crim.ca" }CRIM
-          %br/
-          %a(href="http://js-montreal.org")JS-MONTREAL.ORG
-          &copy; 2011.  Powered by
-          %a(href="http://sinatrarb.com")Sinatra
-          (yes, we love <a href="http://montrealonrails.com">Ruby</a> as well)
+      %footer.dark.rounded-bottom.padded
+        %b Contact:&nbsp;
+        - @links["contact"].each do |l|
+          %a{ :href => l["href"]}<
+            =l["label"]
+          &nbsp;
+        %b Special thanks to:
+        %a{ :href => "http://crim.ca" }CRIM
+        %br/
+        %a(href="http://js-montreal.org")JS-MONTREAL.ORG
+        &copy; 2011.  Powered by
+        %a(href="http://sinatrarb.com")Sinatra
+        (yes, we love <a href="http://montrealonrails.com">Ruby</a> as well)
