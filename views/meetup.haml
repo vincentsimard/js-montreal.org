@@ -1,0 +1,19 @@
+%li.meetup
+  %em #{meetup["on"]}
+  %h3 #{meetup["title"]}
+  - if meetup["blurb"]
+    %p.blurb #{meetup["blurb"]}
+  %ul.speaker-list
+    - meetup["speakers"].each do |s|
+      %li.ample-bottom
+        %a{ :href => s["url"], :target => "_new"}
+          %img.gravatar{ :src => gravaturl(s["email"]) }
+        %h4
+          %a{ :href => s["url"], :target => "_new" }#{s["name"]}
+        %h5 #{s["title"]}
+        %p.synopsis #{s["synopsis"]}
+        %ul.speaker-links
+          - s["links"].each do |l|
+            %li<
+              %a{ :href => l["url"], :target => "_new" }#{l["title"]}
+              = ", " unless s["links"].last == l

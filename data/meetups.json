@@ -1,0 +1,283 @@
+[
+   {
+      "num":1,
+      "title":"JS-MONTREAL.ORG Inaugural meetup!",
+      "on":"20100121",
+      "speakers":[
+         {
+            "title":"A brief history of JavaScript",
+            "name":"Bruno Carriere",
+            "url":"http://js-montreal.org",
+            "email":"neonskimmer@gmail.com",
+            "synopsis":"The JavaScript language has had a very interesting history. Despite being a young language, it has become the most popular one on the planet and its story is one full of mystery, intrigue and murder! Ok maybe not.",
+            "links":[
+               {
+                  "url":"files/js-montreal-history-of-javascript.pdf",
+                  "title":"Slides [PDF]"
+               },
+               {
+                  "url":"http://en.wikipedia.org/wiki/JavaScript",
+                  "title":"JavaScript [Wikipedia]"
+               },
+               {
+                  "url":"http://en.wikipedia.org/wiki/Browser_wars",
+                  "title":"The Browser wars [Wikipedia]"
+               }
+            ]
+         },
+         {
+            "title":"Building a DSL for RESTful applications in JavaScript",
+            "name":"Laurent Villeneuve",
+            "url":"http://github.com/mazesoul",
+            "email":"mazesoul@gmail.com",
+            "synopsis":"Laurent presents a useful abstraction created to define a RESTful application's URL routes. The idea continues now on github with his <a href=\"http://github.com/mazesoul/restate\">restate</a> project.",
+            "links":[
+               {
+                  "url":"http://github.com/mazesoul/restate",
+                  "title":"restate: A simple JavaScript resource mapper"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "num":2,
+      "title":"Plugins In Your Web App: The How-To",
+      "on":"20100210",
+      "speakers":[
+         {
+            "title":"Plugins In Your Web App: The How-To",
+            "name":"Gary Haran",
+            "url":"http://talkerapp.com",
+            "email":"gary.haran@gmail.com",
+            "synopsis":"A plugin based architecture is a great way to build extensible web applications. Gary takes us through the basics and tells us more about his group chat application, Talker.",
+            "links":[
+               {
+                  "url":"http://github.com/garyharan/JS-Montreal_Presentation",
+                  "title":"Presentation slides & Code"
+               },
+               {
+                  "url":"http://talkerapp.com",
+                  "title":"Talker: Fast, intuitive and extensible group chat"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "num":3,
+      "title":"Node JS: An introduction",
+      "on":"20100413",
+      "speakers":[
+         {
+            "title":"Node JS: An introduction",
+            "email":"alexis@cloudhead.net",
+            "name":"Alexis Sellier",
+            "url":"http://cloudhead.io/",
+            "synopsis":"Node JS is an evented IO framework built on top of V8 Javascript. It's particularly useful for building http-based servers and JavaScript is a great match for event-based programming. Alexis has been playing with it for a while and will get us up to speed.",
+            "links":[
+               {
+                  "url":"http://nodejs.org",
+                  "title":"Node JS"
+               },
+               {
+                  "url":"http://github.com/cloudhead/node-intro",
+                  "title":"Presentation slides and code (Github)"
+               },
+               {
+                  "url":"files/node-intro.pdf",
+                  "title":"PDF"
+               }
+            ]
+         },
+         {
+            "title":"Since we last met...",
+            "name":"Bruno Carriere",
+            "url":"http://js-montreal.org",
+            "email":"neonskimmer@gmail.com",
+            "synopsis":"An overview of what happened since our last meeting, in February.",
+            "links":[
+               {
+                  "url":"files/js-montreal-3.pdf",
+                  "title":"Slides [PDF]"
+               },
+               {
+                  "url":"http://www.youtube.com/user/amicalmant",
+                  "title":"Confoo 2010 on Youtube"
+               },
+               {
+                  "url":"http://yuiblog.com/crockford",
+                  "title":"Crockford on JavaScript"
+               },
+               {
+                  "url":"http://crockfordfacts.com",
+                  "title":"Crockford facts"
+               },
+               {
+                  "url":"http://prototypejs.org",
+                  "title":"Prototype"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "num":4,
+      "title":"JS-MONTREAL #4: Function the Ultimate",
+      "on":"20100511",
+      "speakers":[
+         {
+            "title":"Partial application in JavaScript",
+            "email":"brapse@gmail.com",
+            "name":"Sean Braithwaite",
+            "url":"http://twitter.com/brapse",
+            "synopsis":"Partial function application is a staple of functional programming. It is easily implemented in JavaScript as Sean will show us.",
+            "links":[
+               {
+                  "url":"files/partial-applications.pdf",
+                  "title":"Slides [PDF]"
+               }
+            ]
+         },
+         {
+            "title":"Continuation-passing style in JavaScript",
+            "email":"vsedach@gmail.com",
+            "name":"Vladimir Sedach",
+            "url":"http://carcaddar.blogspot.com/",
+            "synopsis":"Vladimir will demonstrate how to use this technique to compile search queries.",
+            "links":[
+
+            ]
+         }
+      ]
+   },
+   {
+      "num":5,
+      "title":"JS-MONTREAL #5: Spring is the new summer",
+      "on":"20100713",
+      "speakers":[
+         {
+            "title":"Why Software Sucks, JavaScript and you",
+            "email":"james@joyent.com",
+            "name":"James Duncan",
+            "url":"http://joyent.com",
+            "synopsis":"Why does software suck? James Duncan is going to tackle this age-old question and tell us why <i>JavaScript is the last language you'll ever need to know</i>. He is currently developing a PaaS using end to end JavaScript called SmartPlatform.",
+            "links":[
+               {
+                  "url":"http://www.joyent.com/technology/smartplatform/",
+                  "title":"Joyent SmartPlatform"
+               }
+            ]
+         },
+         {
+            "title":"A Quilt Of Higher-Order Functions",
+            "email":"mazesoul@gmail.com",
+            "name":"Laurent Villeneuve",
+            "url":"http://github.com/mazesoul",
+            "synopsis":"A machine-gun delivered overview of functional <a title=\"AIIIIYA\" href=\"http://en.wikipedia.org/wiki/Jutsu\">jutsu</a>.",
+            "links":[
+
+            ]
+         }
+      ]
+   },
+   {
+      "num":6,
+      "title":"JS-MONTREAL #6",
+      "on":"20100914",
+      "blurb":"After a short hiatus we return with two great presentations. Jacob is back from <a href=\"http://svgopen.org/2010/\">SVG Open 2010</a> in Paris to tell us more about his SCXML -> JavaScript compiler. Alexis will be doing his second presentation for JS-MTL on the subject of CouchDB and real-time web applications.  <a href=\"http://js-montreal.org/map\">See you there!</a>",
+      "speakers":[
+         {
+            "title":"Developing a statechart to ECMAScript compiler",
+            "email":"jbeard4@cs.mcgill.ca",
+            "name":"Jacob Beard",
+            "url":"http://blog.echo-flow.com/",
+            "synopsis": "Developing rich, Web-based user interfaces can be challenging due to the complex behavioural relationships between UI components, which are often difficult to express, and are even more difficult to encode and maintain. An elegant solution may be found in Model-Driven Engineering. In particular, Statecharts, a formalism for describing complex, reactive, timed, state-based behaviour, is highly suited to model UI behaviour. This presentation will discuss the SCXML JavaScript Code Generation Framework (scxml-js), a Statechart-to-JavaScript compiler, and how it may be used to accelerate the development of fast, robust, and richly interactive Web-based UIs",
+            "links":[
+               {
+                  "url":"http://commons.apache.org/sandbox/gsoc/2010/scxml-js/",
+                  "title":"SCXML-JS"
+               },
+               {
+                  "url":"http://en.wikipedia.org/wiki/State_diagram",
+                  "title":"State Diagrams @ Wikipedia"
+               }
+            ]
+         },
+         {
+            "title":"Building real-time web applications with CouchDB",
+            "email":"alexis@cloudhead.net",
+            "name":"Alexis Sellier",
+            "url":"http://cloudhead.io/",
+            "synopsis":"Alexis is going to introduce <a href=\"http://couchdb.org\">CouchDB</a> and explain how he's been using it to create real-time web applications.",
+            "links":[
+               {
+                  "url":"http://couchdb.org",
+                  "title":"CouchDB"
+               },
+               {
+                  "url":"http://thingler.com",
+                  "title":"Thingler"
+               }
+            ]
+         }
+      ]
+   },{
+      "num": 7,
+      "title":"JS-MONTREAL #7: Homegrown JavaScript",
+      "on":"20101109",
+      "blurb":"We all know the benefits of eating and buying local products. As I sat in <i>cosmic reflexion</i>, it occured to me: Why not apply this ecologically sound point of view to the code we use?  This month we're looking at things you can use in your everyday coding, developped locally. <b>There are more spots, contact us!</b>",
+      "speakers":[
+         {
+            "title":"Better form validation with jQuery.validationEngine",
+            "email":"cedric.dugas@gmail.com",
+            "name":"Cedric Dugas",
+            "url":"http://www.position-absolute.com/",
+            "synopsis": "Form validation is an annoying, repetitive task that we all hate to do. Cedric's jQuery plugin makes form validation much less painful.",
+            "links":[
+               {
+                  "url":"http://github.com/posabsolute/jQuery-Validation-Engine",
+                  "title":"jQuery Validation Engine"
+               }
+            ]
+         },
+         {
+            "title":"Webshell - A console based Javascripty web client utility",
+            "email":"sean@seancoates.com",
+            "name":"Sean Coates",
+            "url":"http://seancoates.com/blogs/",
+            "synopsis":"Sean Coates is a name that is familiar with the PHP community but tonight he's gonna show Webshell, a web client utility written using NodeJS.",
+            "links":[
+               {
+                  "url":"http://github.com/fictivekin/webshell",
+                  "title":"Webshell"
+               }
+            ]
+         }
+      ]
+   },{
+      "num": 8,
+      "title":"JS-MONTREAL #8",
+      "on":"20110111",
+      "speakers":[
+         {
+            "title":"Building a client-side MVC app with Backbone.js, Underscore and jQuery",
+            "email":"neonskimmer@gmail.com",
+            "name":"Bruno Carriere",
+            "url":"http://js-montreal.org/",
+            "synopsis": "Backbone.js is a fresh new library providing models, collections, views and controllers to client-side JavaScript applications.  Bruno is going to take us through the creation of a simple but fully functional web app using Backbone.",
+            "links":[
+               {
+                  "url":"http://documentcloud.github.com/backbone/",
+                  "title":"Backbone.js"
+               },
+               {
+                  "url":"http://documentcloud.github.com/underscore/",
+                  "title":"Underscore"
+               }               
+            ]
+         }
+      ]
+   }   
+   
+]

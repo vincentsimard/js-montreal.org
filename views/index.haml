@@ -1,0 +1,23 @@
+%p.attention.rounded-top-right.meat<
+  - if past?(meetup)
+    Our last meetup happened on
+  - else
+    Our next meetup is happening on
+  %em #{Date.parse( meetup["on"] ).strftime("%A, %B %d")} @ 18:30
+  %br<
+  - if past?(meetup)
+    Register at
+    %a{ :href => "http://js-montreal.eventbrite.com", :target => "_new" }Eventbrite
+    and you will be notified of our next event.
+  - else
+    Find out all the details and register at
+    %a{ :href => "http://js-montreal.eventbrite.com", :target => "_new" }Eventbrite  
+%ol.padded
+  = haml :meetup, :locals => { :meetup => meetup }, :layout => false
+%ol#fun.fun
+  %li.blue
+  %li.green
+  %li.yellow
+  %li.purple
+%script{ :src => "src/bruno-c.js", :type => "text/javascript" }
+  

@@ -1,0 +1,45 @@
+!!! Strict
+%html
+  %head
+    %meta{ :name => "description", :content => "Montreal (Canada) Javascript User Group" }
+    %meta{ :name => "keywords", :content => "montreal,javascript,js,usergroup,user group" }
+    %link{ :href => "http://ajax.googleapis.com/ajax/libs/yui/2.8.0r4/build/reset-fonts-grids/reset-fonts-grids.css", :rel => "stylesheet", :type => "text/css" }
+    %link{ :href => "http://ajax.googleapis.com/ajax/libs/yui/2.8.0r4/build/base/base-min.css", :rel => "stylesheet", :type => "text/css" }
+    %link{ :href => "css/js-mtl.css", :rel => "stylesheet", :type => "text/css" }
+    %script{ :src => "src/jquery-1.4.2.min.js", :type => "text/javascript" }
+    %title js-montreal : JavaScript User Group in Montreal, Quebec
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-2161575-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  %body
+    #content
+      #hd
+        %h1 JS-MONTREAL.ORG
+        %h2 Montr&eacute;al JavaScript User Group
+        %a.twit{ :href => "http://www.twitter.com/jsmontreal" }
+          %img{ :src => "http://twitter-badges.s3.amazonaws.com/follow_bird-c.png", :alt => "Follow jsmontreal on Twitter" }
+      %ul.h-menu
+        = menu(@section)
+      #bd.dark.rounded-top
+        = yield
+      #ft.dark.rounded-bottom.padded
+        %p
+          %b Contact:&nbsp;
+          - @links["contact"].each do |l|
+            %a{ :href => l["href"]}<
+              =l["label"]
+            &nbsp;
+          %b Special thanks to:
+          %a{ :href => "http://crim.ca" }CRIM
+          %br/
+          %a(href="http://js-montreal.org")JS-MONTREAL.ORG
+          &copy; 2011.  Powered by
+          %a(href="http://sinatrarb.com")Sinatra
+          (yes, we love <a href="http://montrealonrails.com">Ruby</a> as well)
