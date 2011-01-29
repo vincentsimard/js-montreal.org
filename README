@@ -1,0 +1,8 @@
+# JS-MONTREAL.ORG
+This repo contains the code for the js-montreal website.
+
+I'm putting it out there because I figure, why not let the group mess around with it and do fun stuff.  What I'd really like is for group members to code something and then have some kind of drop down on the main page to pick what code to execute and have it do something fun and/or clever as a sort of signature for that particular member.
+
+It's kinda hard to explain so I'm going to implement one as a proof of concept with the javascript link box at the bottom.
+
+More on this at the next meetup.
