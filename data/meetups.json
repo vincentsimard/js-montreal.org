@@ -278,6 +278,38 @@
             ]
          }
       ]
-   }   
+   },{
+      "num": 9,
+      "title":"JS-MONTREAL #9",
+      "on":"20110208",
+      "speakers":[
+         {
+            "title":"Don't skip chapter 7!",
+            "email":"mazesoul@gmail.com",
+            "name":"Laurent Villeneuve",
+            "url":"http://js-montreal.org/",
+            "synopsis": "The first time Laurent read \"Javascript, the Definitive Guide\" he skimmed chapter 7 entitled <b>Functions</b>. \"Yeah yeah functions, yeah okay lets move on\". Bad idea.",
+            "links":[
+               {
+                  "url":"http://oreilly.com/catalog/9780596101992",
+                  "title":"Javascript: The Definitive Guide"
+               }              
+            ]
+         },{
+            "title":"Canards & Canvas",
+            "email":"vrenaudin@gmail.com",
+            "name":"Vincent Renaudin",
+            "url":"http://js-montreal.org/",
+            "synopsis": "",
+            "links":[
+               {
+                  "url":"http://duckhunt.grosbouddha.com/",
+                  "title":"Duck Hunt"
+               }              
+            ]
+         }
+         
+      ]
+   }     
    
 ]

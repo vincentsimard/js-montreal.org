@@ -317,6 +317,7 @@ display: block;
 width: 100%;
 overflow: hidden;
 margin: 0em;
+margin-top: -15px;
 }
 
 ol.fun li {

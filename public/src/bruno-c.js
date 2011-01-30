@@ -1,9 +1,12 @@
+// bruno-c
+// my js-montreal member js signature thingy
+// neonskimmer@gmail.com
 $(function(){
-  
-  var $ol = $("#fun")
-    , $lies_damn_lies = $("li", $ol);
 
-
+  var colors = ['blue', 'green', 'yellow', 'purple']
+    , $ol = $('<ol/>', { id: 'fun', class: 'fun' }).insertAfter("#bd")
+    , $lies_damn_lies = colors.map( function(c){ return $('<li/>', { class: c }).appendTo($ol); });
+    
   function jslink(title, href){
     return $( '<a class="jslink" target="_new" title="'
             + title + '" href="' + href + '">'
@@ -12,7 +15,7 @@ $(function(){
   
   function refresh(links){
     
-    for (var i=0; i<4; i++){
+    for (var i=0; i<4; i++){1
       
       var link = links.next()
         , a    = jslink(link.title, link.link).hide();
