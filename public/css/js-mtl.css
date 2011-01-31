@@ -1,5 +1,5 @@
 html, body   {
-background-color: #eee;
+  background-color: #dadada;
 }
 
 body {
@@ -85,11 +85,14 @@ box-shadow: 0px -5px 8px #333;
 
 h1 {
   color : #000;
+  font-family: 'Helvetica';
   font-size : 3em;
   margin : 0.5em 0px 0.25em 0px;
+  text-shadow : 1px 1px 1px white;
 }
 
 h2 {
+  font-family: 'Helvetica';
   font-weight : normal;
   margin : 0px 0px 0.5em 0px;
   color : #89DE00;
@@ -149,11 +152,13 @@ a:hover {
 }
 
 a.twit {
+  font-family: 'Helvetica';
   border : 0 none;
   position : absolute;
   right : 10px;
   text-decoration : none;
   top : 2em;
+  color: black;
 }
 
 #promote-js {

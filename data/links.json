@@ -3,9 +3,6 @@
 		"label": "LinkedIn",
 		"href": "http://www.linkedin.com/groups?gid=2514289"
 	},{
-		"label": "Google Groups",
-		"href": "http://groups.google.com/group/js-montreal"		
-	},{
 		"label": "Twitter",
 		"href": "http://www.twitter.com/jsmontreal"
 	},{
@@ -16,10 +13,10 @@
 		"label": "montreal.rb",
 		"href": "http://www.montrealonrails.com/"
 	},{
-		"label": "Montreal Python",
+		"label": "mtl python",
 		"href": "http://montrealpython.org/"
 	},{
-		"label": "Montreal Scheme &amp; LISP user group",
+		"label": "mtl scheme &amp; lisp",
 		"href": "http://schemeway.dyndns.org/mslug/mslug-home/"
 	}]	
 }

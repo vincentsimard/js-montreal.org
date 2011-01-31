@@ -7,6 +7,7 @@
     %link{ :href => "http://ajax.googleapis.com/ajax/libs/yui/2.8.0r4/build/base/base-min.css", :rel => "stylesheet", :type => "text/css" }
     %link{ :href => "css/js-mtl.css", :rel => "stylesheet", :type => "text/css" }
     %script{ :src => "src/jquery-1.4.2.min.js", :type => "text/javascript" }
+    %script{ :src => "src/jquery.color.js", :type => "text/javascript" }
     %title js-montreal : JavaScript User Group in Montreal, Quebec
     :javascript
       var _gaq = _gaq || [];
@@ -23,8 +24,7 @@
       %header
         %h1 JS-MONTREAL.ORG
         %h2 Montr&eacute;al JavaScript User Group
-        %a.twit{ :href => "http://www.twitter.com/jsmontreal" }
-          %img{ :src => "http://twitter-badges.s3.amazonaws.com/follow_bird-c.png", :alt => "Follow jsmontreal on Twitter" }
+        %a.twit{ :href => "http://www.twitter.com/jsmontreal", :title => "Follow js-montreal on Twitter " }@jsmontreal
       %nav
         %ul.h-menu
           = menu(@section)
@@ -36,8 +36,14 @@
           %a{ :href => l["href"]}<
             =l["label"]
           &nbsp;
-        %b Special thanks to:
+        %b Un gros merci au 
         %a{ :href => "http://crim.ca" }CRIM
+        %br/
+        %b Montreal user groups:&nbsp;
+        - @links["friends"].each do |l|
+          %a{ :href => l["href"]}<
+            =l["label"]
+          &nbsp;
         %br/
         %a(href="http://js-montreal.org")JS-MONTREAL.ORG
         &copy; 2011.  Powered by
