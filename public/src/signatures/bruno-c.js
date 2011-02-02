@@ -94,4 +94,7 @@ $(function(){
                , blurb    : 'Shows some JS related links at the bottom of the page.'
                });
   
+// TEMPORARY: Start this one manually right away
+  JSM.signatures['Bruno Carriere'].init();
+
 });

@@ -1,7 +1,10 @@
 $(function(){
   
   window.JSM = JSM = {};
-  
+
+  JSM.signatures = {};
+
+
 // Registers a 'jsm signature' handler
 // options:
 
@@ -27,6 +30,7 @@ $(function(){
       .data( 'sig', options )
       .appendTo( "#sigs" );
 
+    JSM.signatures[ options.name ] = options.module;
   };
   
   var sig = undefined;
