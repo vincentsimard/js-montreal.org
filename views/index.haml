@@ -14,11 +14,12 @@
     %a{ :href => "http://js-montreal.eventbrite.com", :target => "_new" }Eventbrite
 %ol.padded
   = haml :meetup, :locals => { :meetup => meetup }, :layout => false
-#funtime
+#members{ :style => 'display: none;' }
   Members:
   %select#sigs
     %option
   %p.credits
+/ Here goes the signature plugins
 %script{ :src => "src/signatures/signatures.js", :type => "text/javascript" }
 %script{ :src => "src/signatures/example.js", :type => "text/javascript" }
 %script{ :src => "src/signatures/bruno-c.js", :type => "text/javascript" }

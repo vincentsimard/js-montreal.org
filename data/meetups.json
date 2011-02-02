@@ -278,17 +278,17 @@
             ]
          }
       ]
-   }/*,{
+   },{
       "num": 9,
       "title":"JS-MONTREAL #9",
       "on":"20110208",
       "speakers":[
          {
-            "title":"Don't skip chapter 7!",
+            "title":"Don't skip chapter 7: A look at the Function object.",
             "email":"mazesoul@gmail.com",
             "name":"Laurent Villeneuve",
             "url":"http://js-montreal.org/",
-            "synopsis": "The first time Laurent read \"Javascript, the Definitive Guide\" he skimmed chapter 7 entitled <b>Functions</b>. \"Yeah yeah functions, yeah okay lets move on\". Bad idea.",
+            "synopsis": "The first time Laurent read \"Javascript, the Definitive Guide\" he skipped over chapter 7 entitled <b>Functions</b>. Bad idea. 8 years later, he won't let your make the same mistake.",
             "links":[
                {
                   "url":"http://oreilly.com/catalog/9780596101992",
@@ -300,7 +300,7 @@
             "email":"vrenaudin@gmail.com",
             "name":"Vincent Renaudin",
             "url":"http://js-montreal.org/",
-            "synopsis": "",
+            "synopsis": "Vincent brave les avocats de Nintendo pour nous expliquer comment il a reproduit le classique de notre enfance \"Duck Hunt\" sur Canvas avec plusieures librairies utiles. Bilingual presentation!",
             "links":[
                {
                   "url":"http://duckhunt.grosbouddha.com/",
@@ -308,8 +308,6 @@
                }              
             ]
          }
-         
       ]
-   }*/   
-   
+   }
 ]

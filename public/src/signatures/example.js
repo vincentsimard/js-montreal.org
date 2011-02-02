@@ -66,7 +66,8 @@ $(function(){
     
     name    : 'Example'
   , module  : example   
-    
+  , blurb   : 'Pride edition?'
+  
   });
   
 });

@@ -57,9 +57,9 @@ padding: 1em;
 }
 
 header {
-padding: 20px 0 0 0;
-margin-bottom: 3em;
-display: block;
+  padding: 20px 0 0 0;
+  margin-bottom: 1em;
+  display: block;
 }
 
 header > h2 {
@@ -67,9 +67,12 @@ header > h2 {
 }
 
 #menu {
-font-size: 0.7em;
+  font-size: 0.7em;
 }
 
+#members {
+  padding: 0em 2em 2em 2em;
+}
 
 .bottom-shadow {
 box-shadow: 0px 5px 8px #333;
